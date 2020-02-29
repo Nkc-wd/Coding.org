@@ -1,0 +1,400 @@
+header{
+	font-family: 'Comfortaa', cursive;
+	font-weight:10px;
+	font-size:60px;
+	text-align:center;
+	
+	margin-top: 50px; }
+	.hborder{
+		border:1px solid #dc8f36;
+		width:1100px;
+		margin-left:130px;
+	}
+	
+.navbar{
+	margin-left:5%;
+	font-weight:2em;
+	font-size:20px;
+
+	
+}
+.col{
+	color:red;
+}
+.navbar a{
+	color:#2d1511;
+	}
+	.navbar a:hover{
+	color:steelblue;
+}
+.navbar a:focus{
+	border-bottom:2px solid steelblue;
+}
+.footico a{
+	color:#212529;
+}
+#lan{
+	padding-left:100px;
+}
+.content{
+	width:900px;
+	margin-left:30px;
+	margin-top:30px;
+	height:600px;
+}
+
+#side{
+	width: 270px;
+    position: absolute;
+    bottom: 3000px;
+    right: 5px;
+    left: 1050px;
+}
+
+#sul{
+	list-style:none;
+	margin:0;
+	padding: 0;
+	height:400px;
+
+}
+.sli{
+
+	height:50px;
+	color:white;
+	line-height:15px;
+	border-bottom: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 4px;
+}
+.sli a{
+	color:white;
+}
+
+#mji{
+	color:#1be2f7;
+	font-family: 'Girassol', cursive;
+	text-align: center;
+	animation: none;
+}
+
+footer{
+	background:url("/Images/header.jpeg");
+	width: 100%;
+    height: 400px;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.fcont{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  text-align:center;
+  margin-bottom:0px;
+}
+.co{
+	font-family: 'Girassol', cursive;
+	padding-top:50px;
+	text-align:center;
+	font-size:25px;
+}
+.footag{
+	font-family: 'Girassol', cursive;
+	text-align:center;
+	font-size:25px;
+	bottom:20px;
+	word-spacing:50px;
+}
+.spaneff{
+	word-spacing:normal;
+}
+.footico{
+	text-align:center;
+	word-spacing:50px;
+	margin:50px;
+}
+.fico:hover{
+	color:steelblue;
+}
+.ficow:hover{
+	color:#3FF747;
+}
+.ficom:hover{
+	color:red;
+}
+.ficoi:hover{
+	color:#973267;
+}
+.nzanm{
+  position: relative;
+  animation: move 5s infinite;
+  animation-timing-function: linear;
+  animation-delay:2s;
+  overflow:hidden;
+
+}
+
+
+@keyframes move {
+  from { margin-bottom:0px;
+         }
+  to   {
+         margin-bottom: 100px; }
+}
+.nzanm:hover{
+animation-play-state: paused;
+}
+
+.sbc{
+	background:url("/Images/nbc2.jpg"); 
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+	
+	font-size:20px;
+}
+ 
+
+.front{
+	background:url("/Images/front.jpg");
+	height:500px;
+}
+
+.froc{
+	position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 66.5%;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    top: 680px;
+}
+
+.glan{
+	position:absolute;
+	right: 0px;
+    bottom: 3650px;
+}
+ .htfront{
+  background:url("/Images/html.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#hside{
+  width: 270px;
+    position: absolute;
+    bottom: 3600px;
+    right: 5px;
+    left: 1050px;
+}
+.hglan{
+  position:absolute;
+  right: 0px;
+  top:1px;
+}
+.hh5{
+  font-size:30px;
+  color: #54b0cc;
+}
+.csfront{
+  background:url("https://cdn.lynda.com/course/504266/504266-636924000532723800-16x9.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#cside{
+  width: 270px;
+    position: absolute;
+    bottom: 3250px;
+    right: 5px;
+    left: 1050px;
+}
+.cglan{
+  position:absolute;
+  right: 0px;
+    top:1px;
+}
+.jsfront{
+  background:url("https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#jsside{
+  width: 270px;
+    position: absolute;
+    bottom: 2880px;
+    right: 5px;
+    left: 1050px;
+}
+.jsglan{
+  position:absolute;
+  right: 0px;
+  top:0px;
+}
+.jh5{
+  font-weight:20px;
+  font-size: 30px;
+  color:#54b0cc;
+}
+ .clfront{
+  background:url("https://cdnp1.stackassets.com/dbd8b662370e2dd5283d3f352802c43c79b15f8d/store/opt/596/298/abf733ad50de70c3ad93f8b34f894876f93318a2aff76ccc7504ecce0fc1/product_16032_product_shot_wide_image.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.cpplfront{
+  background:url("https://blog.eduonix.com/wp-content/uploads/2015/11/C-3-More-on-C-Syntax.png");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#ccside{
+  width: 270px;
+    position: absolute;
+    bottom: 7050px;
+    right: 5px;
+    left: 1050px;
+}
+.ccglan{
+  position:absolute;
+  right: 0px;
+  top: 1px;
+}
+.ch5{
+  font-size:30px;
+  color: #54b0cc;
+}
+
+.javafront{
+  background:url("https://images.idgesg.net/images/article/2019/03/javaworld_jvm_jdk_jre_explainer_java_development_kit_write_3x2_2400x1600_by_idg_oracle_vasabii_gettyimages-100790551-large.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#jaside{
+  width: 270px;
+    position: absolute;
+    bottom: 4900px;
+    right: 5px;
+    left: 1050px;
+}
+.jaglan{
+  position:absolute;
+  right: 0px;
+  top:1px;
+}
+.jah5{
+  font-size:30px;
+  color: #54b0cc;
+}
+.pyfront{
+  background:url("https://www.technotification.com/wp-content/uploads/2017/05/Python-programming-for-hackers-compressed-800x400.jpg");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#pyside{
+  width: 270px;
+    position: absolute;
+    bottom: 3400px;
+    right: 5px;
+    left: 1050px;
+}
+.pyglan{
+  position:absolute;
+  right: 0px;
+  top:1px;
+}
+.pyh5{
+  font-size:30px;
+  color: #54b0cc;
+}
+.sqfront{
+  background:url("https://www.tutorialrepublic.com/lib/images/sql-illustration.png");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#sqside{
+  width: 270px;
+    position: absolute;
+    bottom: 3400px;
+    right: 5px;
+    left: 1050px;
+}
+.sqglan{
+  position:absolute;
+  right: 0px;
+    top:1px;
+}
+.sh5{
+  font-size:30px;
+  color: #54b0cc;
+}
+
+#onside{
+  width: 270px;
+    position: absolute;
+    bottom: 5900px;
+    right: 5px;
+    left: 1050px;
+}
+.onglan{
+  position:absolute;
+  right: 0px;
+  top:1px;
+}
+  .onfront{
+  background:url("https://d20vrrgs8k4bvw.cloudfront.net/images/courses/thumbnails/ud168_thumbnail.jpg");
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.im{
+  width:700px;
+  height:400px;
+}
+.mar{
+  margin:90px 0 100px 200px;
+}
+#offside{
+  width: 270px;
+    position: absolute;
+    bottom: 2750px;
+    right: 5px;
+    left: 1050px;
+}
+.offglan{
+  position:absolute;
+  right: 0px;
+    top:1px;
+}
+  .offront{
+  background:url("https://image.slidesharecdn.com/compilers-120317093334-phpapp02/95/compilers-3-728.jpg?cb=1331976955");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.offmar{
+  margin:90px 0 60px 100px;
+}
+.ofh5{
+  font-size:30px;
+  color: #54b0cc;
+}
+
+

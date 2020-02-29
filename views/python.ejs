@@ -1,0 +1,81 @@
+<%- include("../partials/header") %>
+<%- include("../partials/nav") %>
+
+<div style="color:#7b7b25;">
+<h1 style="margin:80px 0 0 400px">PYTHON</h1>
+  <h2 style="margin-left:300px;">(programming language)</h2></div>
+  <div class="pyfront content">
+  </div>
+<div class="roboto content" >
+<p class=" m-2 ml-3"><p> Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+
+<p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.</p>
+
+<p>Python was conceived in the late 1980s as a successor to the ABC language. Python 2.0, released in 2000, introduced features like list comprehensions and a garbage collection system capable of collecting reference cycles. Python 3.0, released in 2008, was a major revision of the language that is not completely backward-compatible, and much Python 2 code does not run unmodified on Python 3.</p> 
+
+<p>The Python 2 language, i.e. Python 2.7.x, is officially being discontinued on January 1, 2020 (first planned for 2015) after which security patches and other improvements will not be released for it.[29][30] With Python 2's end-of-life, only Python 3.5.x[31] and later will be supported.<br>
+
+Python interpreters are available for many operating systems. A global community of programmers develops and maintains CPython, an open source[32] reference implementation. A non-profit organization, the Python Software Foundation, manages and directs resources for Python and CPython development.</p></p>
+
+</div>
+<div class="roboto" style="margin:30px 50px 10px 40px;">
+<p><span class="h4">History of PYTHON</span> <hr><br>
+<p>Python was conceived in the late 1980s[33] by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL),[34] capable of exception handling and interfacing with the Amoeba operating system.[8] Its implementation began in December 1989.[35] Van Rossum shouldered sole responsibility for the project, as the lead developer, until July 12, 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.[36] He now shares his leadership as a member of a five-person steering council. In January, 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project.</p> 
+
+<p> Python 2.0 was released on 16 October 2000 with many major new features, including a cycle-detecting garbage collector and support for Unicode.</p>
+
+<p>Python 3.0 was released on 3 December 2008. It was a major revision of the language that is not completely backward-compatible.[42] Many of its major features were backported to Python 2.6.x[43] and 2.7.x version series. Releases of Python 3 include the 2to3 utility, which automates (at least partially) the translation of Python 2 code to Python 3.<br>
+
+Python 2.7's end-of-life date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.</p>
+
+<span class="pyh5">Features and philosophy</span> <hr><br>
+ <p>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming (including by metaprogramming[47] and metaobjects (magic methods)).[48] Many other paradigms are supported via extensions, including design by contract[49][50] and logic programming.</p>
+
+ <p>
+   Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It also features dynamic name resolution (late binding), which binds method and variable names during program execution.<br>
+
+Python's design offers some support for functional programming in the Lisp tradition. It has filter, map, and reduce functions; list comprehensions, dictionaries, sets, and generator expressions.[52] The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML.<br>
+
+The language's core philosophy is summarized in the document The Zen of Python (PEP 20), which includes aphorisms such as:<br>
+ </p>
+
+
+<ul>
+<li>Beautiful is better than ugly.</li>
+<li>Explicit is better than implicit.</li>
+<li>Simple is better than complex.</li>
+<li>Complex is better than complicated.</li>
+<li>Readability counts.</li>
+</ul>
+<p>
+  Rather than having all of its functionality built into its core, Python was designed to be highly extensible. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach.
+</p>
+<p>
+  Python strives for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's "there is more than one way to do it" motto, Python embraces a "there should be one—and preferably only one—obvious way to do it" design philosophy.[54] Alex Martelli, a Fellow at the Python Software Foundation and Python book author, writes that "To describe something as 'clever' is not considered a compliment in the Python culture."
+</p>
+
+<p>
+  Python's developers strive to avoid premature optimization, and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity.[56] When speed is important, a Python programmer can move time-critical functions to extension modules written in languages such as C, or use PyPy, a just-in-time compiler. Cython is also available, which translates a Python script into C and makes direct C-level API calls into the Python interpreter.
+
+
+</p>
+<span class="pyh5">Syntax and semantics</span> <hr><br>
+
+<span class="pyh5">Indentation</span><br>
+<p>Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.[63] Thus, the program's visual structure accurately represents the program's semantic structure.[1] This feature is sometimes termed the off-side rule, which some other languages share, but in most languages indentation doesn't have any semantic meaning.
+</p>
+
+<span class="pyh5">Statements and control flow</span><br>
+<p>The assignment statement (token '=', the equals sign). This operates differently than in traditional imperative programming languages, and this fundamental mechanism (including the nature of Python's version of variables) illuminates many other features of the language. Assignment in C, e.g., x = 2, translates to "typed variable name x receives a copy of numeric value 2". The (right-hand) value is copied into an allocated storage location for which the (left-hand) variable name is the symbolic address. The memory allocated to the variable is large enough (potentially quite large) for the declared type. In the simplest case of Python assignment, using the same example, x = 2, translates to "(generic) name x receives a reference to a separate, dynamically allocated object of numeric (int) type of value 2." This is termed binding the name to the object. Since the name's storage location doesn't contain the indicated value, it is improper to call it a variable</p>
+
+</p>
+<img src="https://www.jetbrains.com/help/img/idea/2019.3/py_quick_start_step1.png" width="700px;" height="400px;" style="margin-left:200px;">
+
+<div class="display-4" style="font-size:30px;">
+  <a href="https://www.geeksforgeeks.org/python-programming-language/">Continue...</a>
+</div>
+
+</div>
+
+<%- include("../partials/news") %>   
+<%- include("../partials/footer") %>
